@@ -7,12 +7,12 @@
 <style>
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(208, 238, 255);  
+    background-color: rgb(141, 130, 130);
     margin: 0 auto;  
 
 }
 .barra {
-    background-color: blue;
+    background-color: rgb(141, 130, 130);
     align-items: center;
     height: 50px;
     width: 100%;
@@ -58,6 +58,7 @@ text-align: center
 
 .gmail{
     text-align: center;
+    
 }
 
 .enviar {
@@ -67,9 +68,9 @@ text-align: center
 
 .login{
 
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 200px;
+    background-color: rgb(107, 153, 194);
+    width: 500px;
+    height: 300px;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
@@ -80,13 +81,18 @@ text-align: center
 
 .rodape{
 
-font-size: 19px;
+font-size: 20px;
 text-align: center;
 margin: 10px;
 }
 
 
 
+ .espaco{
+    margin: 20px;
+    width: 100%;
+    
+ }
 
 
 
@@ -100,8 +106,10 @@ margin: 10px;
     <div class="barra">
         <img height="40px" src="https://logosmarcas.net/wp-content/uploads/2020/04/Adidas-Logo-650x366.png" alt="">
         <input class="pesquisa" type="text" placeholder="Pesquisar">
-        <img height="40px" src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="">
+    <a href="#produtos">   <img height="40px" src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt=""></a> 
+    <a href="#login"> <button>Crie sua conta</button></a>
 
+    
 
     </div>
 
@@ -109,7 +117,7 @@ margin: 10px;
         <img width="100%" src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_1920,w_1920/7223466_CAM_LAM_DAT_ONSITE_SS_26_ORIGINALS_CLASS_BR_BANNER_SMALL_D_2880x800_f3fea54b42.jpg" alt="">
     </div>
     
-    <div class="itens">
+  <div id="produtos">  <div class="itens">
         <div class="box">
             <img  src="https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/83e795d9f80e4c118de772237965f32a_9366/TENIS_SAMBA_OG_Branco_IH9373_15_hover_standard.jpg" alt="">
             <div class="name">Samba OG</div>
@@ -157,12 +165,16 @@ margin: 10px;
 
         </div>
     </div>
-    
+    </div>
     <div class="login">
         <p class="facallogin"
 
-    </div>
+    
 
+<div>
+
+
+<div id="login"><div class="itens">    
     <div class="login">
         <p class="log">criar conta</p>
         <div class="gmail">
@@ -175,9 +187,11 @@ margin: 10px;
             <button>entrar</button>
         </div>
     </div>
+</div>
 
+<div></div>
 
-    <div class="rodape">Feito por João Pedro Nunes</div>
+    <div class="rodape">Feito com muito amor por João Pedro Nunes</div>
 
 
 </body>
